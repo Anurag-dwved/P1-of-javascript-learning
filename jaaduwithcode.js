@@ -10,7 +10,7 @@ color+=hex[Math.floor(Math.random()*16)];
 let  constsetinterval;
 //i should reference of start and stop button 
 const startchangingcolor= function(){
-    // run continously so use setInterval
+    // run continousely so use setInterval
    constsetinterval= setInterval(changebackgroudcolor,1000)
    function changebackgroudcolor (){document.body.style.backgroundColor=randomcolor();}
 };
